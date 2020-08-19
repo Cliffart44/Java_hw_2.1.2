@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int threshold = 1000;
-        int accounts_refill;
+        int accountsRefill;
         int bonus;
-        accounts_refill = 1100;
-        if(accounts_refill > threshold) {
-            bonus = accounts_refill / 100;
+        accountsRefill = 1100;
+        if(accountsRefill > threshold) {
+            bonus = accountsRefill / 100;
         } else {
             bonus = 0;
         }
